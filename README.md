@@ -57,7 +57,6 @@
         State7: Selenoid
         State8: Allure Report
         State9: Telegram
-        State10: STOP
         State1 --> State2
         State2 --> State3
         State3 --> State4
