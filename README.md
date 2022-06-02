@@ -6,7 +6,7 @@
 
 ➠ [Technology stack](#computer-Technology-stack)
 
-➠ [Running tests from the terminal](#technologist-Running-tests-from-terminal)
+➠ [Running tests from the terminal](#technologist-Running-tests-from-the-terminal)
 
 ➠ [Run tests on remote selenoid server](#Run-tests-on-remote-selenoid-server)
 
@@ -18,7 +18,7 @@
 
 ➠ [Notifications in Telegram using a bot](#-Notifications-in-Telegram-using-a-bot)
 
-➠ [Пример запуска теста в Selenoid](#-пример-запуска-теста-в-selenoid)
+➠ [Video attach example](#-Video-attach-example)
 
 ## <a name="globe_with_meridians-tests"></a>:globe_with_meridians: Tests
 
@@ -33,17 +33,17 @@
 ## :computer: Technology stack
 
 <p align="center">
-<img width="6%" title="IntelliJ IDEA" src="images/logo/Intelij_IDEA.svg">
-<img width="6%" title="Java" src="images/logo/Java.svg">
-<img width="6%" title="Gradle" src="images/logo/Gradle.svg">
-<img width="6%" title="JUnit5" src="images/logo/JUnit5.svg">
-<img width="6%" title="Selenide" src="images/logo/Selenide.svg">
-<img width="6%" title="Selenoid" src="images/logo/Selenoid.svg">
-<img width="6%" title="Allure Report" src="images/logo/Allure_Report.svg">
-<img width="6%" title="Allure TestOps" src="images/logo/Allure_TO.svg">
-<img width="6%" title="Jenkins" src="images/logo/Jenkins.svg">
-<img width="6%" title="GitHub" src="images/logo/GitHub.svg">
-<img width="6%" title="Telegram" src="images/logo/Telegram.svg">
+<img width="6%" title="IntelliJ IDEA" src="imagess/logo/Intelij_IDEA.svg">
+<img width="6%" title="Java" src="imagess/logo/Java.svg">
+<img width="6%" title="Gradle" src="imagess/logo/Gradle.svg">
+<img width="6%" title="JUnit5" src="imagess/logo/JUnit5.svg">
+<img width="6%" title="Selenide" src="imagess/logo/Selenide.svg">
+<img width="6%" title="Selenoid" src="imagess/logo/Selenoid.svg">
+<img width="6%" title="Allure Report" src="imagess/logo/Allure_Report.svg">
+<img width="6%" title="Allure TestOps" src="imagess/logo/Allure_TO.svg">
+<img width="6%" title="Jenkins" src="imagess/logo/Jenkins.svg">
+<img width="6%" title="GitHub" src="imagess/logo/GitHub.svg">
+<img width="6%" title="Telegram" src="imagess/logo/Telegram.svg">
 </p>
 
 ```mermaid        
@@ -92,7 +92,6 @@ gradle clean test -Dconfig=RemoteConfig
 
 ### Additional build parameters you could use 
 
-> <code>REMOTE_DRIVER_URL</code> – адрес удаленного сервера, на котором будут запускаться тесты.
 >
 > <code>-Dbrowser</code> – to change browser, by default it's Chrome. 
 >
@@ -107,7 +106,7 @@ gradle clean test -Dconfig=RemoteConfig
 ## <img width="4%" title="Jenkins" src="images/logo/Jenkins.svg"> The project on [Jenkins](https://jenkins.autotests.cloud/job/JetBrains-website/)
 
 <p align="center">
-  <img src="images/screens/Jenkins.png">
+  <img src="imagess/screens/Jenkins.png">
 </p>
 
 ## <img width="4%" title="Allure Report" src="images/logo/Allure_Report.svg"> Test results report in [Allure Report](https://jenkins.autotests.cloud/job/JetBrains-website/allure/)
@@ -115,37 +114,37 @@ gradle clean test -Dconfig=RemoteConfig
 ### :pushpin: Allure report main page
 
 <p align="center">
-<img title="Allure Overview" src="images/screens/allure_overview.png">
+<img title="Allure Overview" src="imagess/screens/allure_overview.png">
 </p>
 
 ### :pushpin: The test suite
 
 <p align="center">
-<img title="Allure Behaviors" src="images/screens/allure_test_suite.png">
+<img title="Allure Behaviors" src="imagess/screens/allure_test_suite.png">
 </p>
 
 ### :pushpin: Dashboard
 
 <p align="center">
-<img title="Allure Overview Dashboard" src="images/screens/allure_dashboard.png">
+<img title="Allure Overview Dashboard" src="imagess/screens/allure_dashboard.png">
 </p>
 
 ## <img width="4%" title="Allure TestOPS" src="images/logo/Allure_TO.svg"> Integration with [Allure TestOps](https://allure.autotests.cloud/launch/13201)
 
 <p align="center">
-  <img src="images/screens/Allure_TO.png" alt="dashboards">
+  <img src="imagess/screens/Allure_TO.png" alt="dashboards">
 </p>
 
 ## <img width="4%" title="Telegram" src="images/logo/Telegram.svg"> Notifications in Telegram using a bot
 
 > When the build is complete, the bot created in Telegram automatically sends a message with a report (instead of Telegram notifications can be sent to Slack or email).
 <p align="center">
-<img title="Telegram Notifications" src="images/screens/telegram_notifications.png">
+<img title="Telegram Notifications" src="imagess/screens/telegram_notifications.png">
 </p>
 
-## <img width="4%" title="Selenoid" src="images/logo/Selenoid.svg"> Пример запуска теста в Selenoid
+## <img width="4%" title="Selenoid" src="images/logo/Selenoid.svg"> Video attach example
 
 > Each test in the report is accompanied by a video. One such video is shown below.
 <p align="center">
-  <img title="Selenoid Video" src="images/gif/selenoid_video.gif">
+  <img title="Selenoid Video" src="imagess/gif/selenoid_video.gif">
 </p>
