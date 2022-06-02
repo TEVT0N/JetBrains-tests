@@ -3,8 +3,8 @@ package com.JetBrains.tests;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
+@DisplayName("UI tests")
 public class UITests extends TestBase {
-
 
     @Test
     @DisplayName("Page console log should not have errors")
