@@ -4,7 +4,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 @DisplayName("UI tests")
-public class UITests extends TestBase {
+public class UiTests extends TestBase {
 
     @Test
     @DisplayName("Page console log should not have errors")
@@ -21,7 +21,7 @@ public class UITests extends TestBase {
     }
 
     @Test
-    @DisplayName("Login with valid data")
+    @DisplayName("Login with valid credentials")
     void validLogin() {
         homePage.openPage()
         .openAccountPage();

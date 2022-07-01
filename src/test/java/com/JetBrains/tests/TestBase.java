@@ -18,7 +18,7 @@ public class TestBase {
 
     HomePage homePage = new HomePage();
     LoginPage loginPage = new LoginPage();
-    Credentials credentials = ConfigFactory.create(Credentials.class);
+    Credentials credentials = ConfigFactory.create(Credentials.class, System.getProperties());
     String login = credentials.login(),
             password = credentials.password(),
             loginJson = credentials.loginJson(),
@@ -47,5 +47,4 @@ public class TestBase {
         DriverUtils.addVideo();
         closeWebDriver();
     }
-
 }
