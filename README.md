@@ -80,8 +80,8 @@
 ### Local test run
 
 ```
-gradle clean test (for login test you need to edit credentials.properties file to add your personal login, password and <br>
- json number for your personal JetBrains account or specify it with -Dlogin=xxx -Dpassword=xxx -DloginJson=xxx
+gradle clean test (for login test you need to edit credentials.properties file to add your personal login, password
+and json number for your personal JetBrains account or specify it with -Dlogin=xxx -Dpassword=xxx -DloginJson=xxx
 ```
 
 ### Run tests on remote selenoid server
