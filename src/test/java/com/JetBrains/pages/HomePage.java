@@ -4,6 +4,7 @@ import com.JetBrains.config.DriverUtils;
 import io.qameta.allure.Step;
 import org.openqa.selenium.Keys;
 import static com.codeborne.selenide.Condition.*;
+import static com.codeborne.selenide.Configuration.baseUrl;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 import static com.codeborne.selenide.WebDriverConditions.url;
@@ -53,7 +54,7 @@ public class HomePage {
 
     @Step("Verify advanced search is opened")
     public HomePage verifyAdvancedSearchIsOpened() {
-        webdriver().shouldHave(url("https://www.jetbrains.com/?s=full"));
+        webdriver().shouldHave(url(baseUrl + "/?s=full"));
         $(byText("Plugin Marketplace")).shouldBe(visible);
         return this;
     }

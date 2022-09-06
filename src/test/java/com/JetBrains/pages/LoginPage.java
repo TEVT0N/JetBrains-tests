@@ -6,7 +6,6 @@ import static com.codeborne.selenide.WebDriverConditions.url;
 
 // page_url = https://account.jetbrains.com/login
 public class LoginPage {
-
     @Step("Open registration page")
     public LoginPage openPage() {
         open("https://account.jetbrains.com/login");
@@ -36,6 +35,4 @@ public class LoginPage {
         webdriver().shouldHave(url("https://account.jetbrains.com/licenses?" + value));
         return this;
     }
-
-
 }

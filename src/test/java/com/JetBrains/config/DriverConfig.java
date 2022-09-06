@@ -9,7 +9,7 @@ public interface DriverConfig extends Config {
     @DefaultValue("1920x1080")
     String browserSize();
     String browserVersion();
-    @DefaultValue("https://www.jetbrains.com/")
+    @DefaultValue("https://www.jetbrains.com")
     String baseUrl();
     String selenoidUrl();
 
